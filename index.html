@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    <div class="calculadora">
+        <div><input type="text" id="resultado" placeholder="0" disabled></div>
+    
+
+    <div class="num-container">
+        <button class="num" onclick="numeros(7)">7</button>
+        <button class="num" onclick="numeros(8)">8</button>
+        <button class="num" onclick="numeros(9)">9</button>
+        <button class="num" onclick="numeros('+')">+</button>
+    </div>
+
+    <div class="num-container">
+        <button class="num" onclick="numeros(4)">4</button>
+        <button class="num" onclick="numeros(5)">5</button>
+        <button class="num" onclick="numeros(6)">6</button>
+        <button class="num" onclick="numeros('-')">-</button>
+    </div>
+
+    <div class="num-container">
+        <button class="num" onclick="numeros(1)">1</button>
+        <button class="num" onclick="numeros(2)">2</button>
+        <button class="num" onclick="numeros(3)">3</button>
+        <button class="num" onclick="numeros('/')">/</button>
+    </div>
+
+    <div class="num-container">
+        <button class="num" onclick="resetear()">C</button>
+        <button class="num"onclick="numeros(0)" >0</button>
+        <button class="num" onclick="numeros('.')">.</button>
+        <button class="num"onclick="numeros('*')">x</button>
+    </div>
+    <div class="num-container">
+    
+        <button class="num"onclick="numeros('<')"><</button>
+        <button class="num" onclick="numeros('>')">></button>
+        <button class="num1"onclick="operacion()">=</button>
+        </div>
+    
+
+</div>
+ <script src="codigo.js "></script>   
+</body>
+</html>

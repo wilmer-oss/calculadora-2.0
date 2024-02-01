@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+}
+
+.calculadora{
+    width: 300px;
+    margin: 150px auto;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: aliceblue;
+    padding: 10px;
+    
+
+}
+
+#resultado{
+    border: 1px solid green;
+    padding: 5px;
+    border-radius: 20px;
+    margin-top: 5px;
+    width: 80%;
+    margin: auto;
+    height: 30px;
+    
+}
+
+.num-container{
+    margin: 10px;
+
+}
+
+.num {
+    width: 50px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+}
+
+.num1{border-radius: 10px;
+    height: 50px;
+    width: 90px;
+    margin: 10px;
+    background-color: green;
+
+}
+ 
+    
+
